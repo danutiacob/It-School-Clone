@@ -1,0 +1,170 @@
+/* Main Section */
+.contactInfo {
+    color: black;
+    margin-left: 20rem;
+}
+
+.programInfo {
+    margin-left: 13rem;
+}
+
+.personalData {
+    color: #f99a3b;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.deviceContact {
+    color: #f99a3b;
+    margin-left: 10px;
+}
+
+.paragraphContact {
+    color: black;
+    margin: 20px 50px;
+}
+
+.paragraphcontact {
+    color: #f99a3b;
+    margin: 20px 50px;
+}
+
+.rowContact {
+    margin-top: 50px;
+}
+
+input {
+    border: 2px solid #03224C;
+    padding: 8px;
+    width: 30rem;
+    border-radius: 15px;
+}
+
+input:focus {
+    border: 3px solid #f99a3b;
+}
+
+label {
+    padding: 10px 0px;
+}
+
+.contactButton:hover {
+    background-color: transparent;
+    color: #f99a3b;
+}
+
+.mainSecond {
+    padding: 20px;
+}
+
+.titleTraining {
+    font-size: 50px;
+    color: #f99a3b;
+    text-align: center;
+}
+
+
+/* Media Query */
+@media (max-width: 771px) {
+    .contactInfo {
+        color: black;
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 763px) {
+    .programInfoTimetable {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 771px) {
+    .contactInfo {
+        color: black;
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 563px) {
+    .programInfoTimetable {
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 494px) {
+    .titleTraining {
+        font-size: 40px;
+        color: #f99a3b;
+        text-align: center;
+    }
+    input {
+        border: 2px solid #03224C;
+        padding: 8px;
+        width: 25rem;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 481px) {
+    .contactInfo {
+        color: black;
+        margin-left: 8rem;
+    }
+    .programInfoTimetable {
+        margin-left: 3rem;
+    }
+}
+@media (max-width: 428px) {
+    input {
+        border: 2px solid #03224C;
+        padding: 8px;
+        width: 17rem;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .contactInfoEmail {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 368px) {
+    .contactInfoCenter {
+        margin-left: 13rem;
+    }
+    .contactInfoNumber {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 338px) {
+    .contactInfoFacebook {
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 312px) {
+    .contactInfoNumber {
+        margin-left: 3rem;
+    }
+    .contactInfoEmail {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 299px) {
+    .contactInfoCenter {
+        margin-left: 8rem;
+    }
+    input {
+        border: 2px solid #03224C;
+        padding: 8px;
+        width: 14rem;
+        border-radius: 15px;
+    }
+}

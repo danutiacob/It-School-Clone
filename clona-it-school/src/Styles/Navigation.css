@@ -1,0 +1,44 @@
+body {
+    overflow-x: hidden;
+}
+
+.hoverEfect {
+    font-size: 20px;
+    color: white;
+}
+
+.hoverEfect:hover {
+    color: #FFCB60;
+}
+
+.dropdown:hover {
+    background-color: white;
+}
+
+.bg {
+    background-color: #03224C;
+    width: 100%;
+}
+
+.dropdown {
+    background-color: #03224C;
+    border: none;
+}
+
+.logo {
+    height: 70px;
+    width: 150px;
+}
+
+
+/* Media Query */
+@media (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 672px) {
+    body {
+        overflow-x: hidden;
+    }
+}

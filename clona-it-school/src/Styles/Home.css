@@ -1,0 +1,288 @@
+/* Header Section */
+.headerSection {
+    background-color: #03224C;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.titleName {
+    color: #FFCB60;
+    padding-top: 10rem;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.subTitle {
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.dev {
+    color: #FFCB60;
+}
+
+.flexIconsFirst, .flexIconsSecond {
+    display: flex;
+    align-items: center;
+}
+
+.logoH {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.logoH:hover {
+    width: 80px;
+}
+
+.iconsH {
+    color: #FFCB60;
+}
+
+.headerButton {
+    background-color: #FFCB60;
+    margin-top: 30px;
+    border-radius: 0 2rem 0 2rem;
+    margin-left: 50px;
+    padding: 20px 80px;
+}
+
+.headerButton:hover {
+    background-color: transparent;
+    border: 2px solid #FFCB60;
+}
+
+/* About Section */
+.AboutUs {
+    margin-top: 15px;
+    width: 30rem;
+}
+
+.aboutUs {
+    margin-left: 26px;
+    margin-top: 15px;
+    width: 30rem;
+}
+
+.aboutSection {
+    padding: 20px;
+    background-color: #c7e6ef;
+}
+
+.nameTitle {
+    background-color: #FFCB60;
+    border-radius: 2rem 0 2rem 0;
+    padding: 10px 3px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+} 
+
+.img {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* Sectiunea Partnerships */
+
+.Partnerships {
+    margin-left: 90px;
+    width: 200px;
+    height: 180px;
+    filter: grayscale(100%);
+}
+
+.Partnerships:hover {
+    filter: none;
+}
+
+.partnerships {
+    margin-left: 70px;
+    width: 200px;
+    height: 180px;
+    filter: grayscale(100%);
+}
+
+.partnerships:hover {
+    filter: none;
+}
+
+/* Footer Section */
+.footerSection {
+    background-color: #03224C;
+    padding: 30px;
+}
+
+/* Sectiunea de ContactUs */
+.ContactUs {
+    text-align: center;
+    font-size: 40px;
+}
+
+.WhatApp {
+    color: forestgreen;
+}
+
+.Linkedin {
+    color: #04c9fb;
+    margin-left: 20px;
+}
+
+.Mail {
+    color: rgb(87, 39, 183) ;
+    margin-left: 20px;
+}
+
+.Messanger {
+    color: saddlebrown;
+    margin-left: 20px;
+}
+
+.WhatApp:hover, .Linkedin:hover,
+ .Mail:hover, .Messanger:hover {
+    margin-bottom: 37px;
+}
+
+/* Sectiunea de CallUs */
+.CallUs {
+    text-align: center;
+}
+
+.Mobile {
+    margin-top: 30px;
+    color: green;
+    font-size: 35px;
+}
+
+.MobileN, .MobileFixN {
+    margin-top: 50px;
+    align-items: center;
+    color: #FFCB60;
+}
+
+.MobileFix {
+    margin-left: 60px;
+    font-size: 35px;
+    color: green;
+    margin-top: 30px;
+}
+
+
+
+/* Media Query */
+@media (max-width: 876px) {
+    .flexIconsFirst {
+        display: block;
+        align-items: center;
+    }
+    .flexIconsSecond {
+        margin-top: 3rem;
+    }
+    .titleName {
+        color: #FFCB60;
+        padding-top: 5rem;
+        font-size: 60px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 530px) {
+    .AboutUs {
+        margin-left: 26px;
+        margin-top: 15px;
+        width: 20rem;
+    }    
+    .aboutUs {
+        margin-left: 26px;
+        margin-top: 15px;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 522px) {
+    .flexIconsSecond {
+        text-align: center;
+        display: block;
+        margin-top: 3rem;
+    }
+    .logoH {
+        width: 60px;
+        margin-top: 30px;
+    }
+    .headerButton {
+        background-color: #FFCB60;
+        margin-top: 30px;
+        border-radius: 0 2rem 0 2rem;
+        text-align: center;
+        padding: 20px 80px;
+    }
+}
+
+@media (max-width: 433px) {
+    .titleName {
+        color: #FFCB60;
+        padding-top: 2rem;
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .subTitle {
+        color: white;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .Mobile {
+        margin-top: 30px;
+        color: green;
+        font-size: 25px;
+    }
+    .MobileFix {
+        margin-left: 40px;
+        font-size: 35px;
+        color: green;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 404px) {
+    .AboutUs {
+        margin-left: 26px;
+        margin-top: 15px;
+        width: 15rem;
+    }
+    .aboutUs {
+        margin-left: 26px;
+        margin-top: 15px;
+        width: 15rem;
+    }
+}
+
+@media (max-width: 352px) {
+    .headerButton {
+        background-color: #FFCB60;
+        margin-top: 30px;
+        border-radius: 0 2rem 0 2rem;
+        margin-left: 30px;
+        padding: 20px 50px;
+    }
+    .AboutUs {
+        margin-left: 29px;
+        margin-top: 15px;
+        width: 10rem;
+    }
+    .aboutUs {
+        margin-left: 29px;
+        margin-top: 15px;
+        width: 10rem;
+    }
+    .Partnerships {
+        margin-left: 20px;
+        width: 200px;
+        height: 180px;
+    }
+    .partnerships {
+        margin-left: 20px;
+        width: 200px;
+        height: 180px;
+    }
+}

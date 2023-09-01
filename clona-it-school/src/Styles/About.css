@@ -1,0 +1,106 @@
+/* Header section  */
+.headerCursesSection {
+    background-color: #03224C;
+    padding: 60px;
+    height: 290px;
+}
+
+.titleHeader {
+    color: #FEA347;
+    text-align: center;
+    margin-top: -130px;
+    font-size: 65px;
+}
+
+/* Main Section */
+.cardAboutSectionFirst {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.card-backround {
+    background: white;
+    border: 1px solid;
+    border-radius: 10px;
+    position: relative;
+}
+
+.secondPlace {
+    margin-top: 100px;
+}
+
+.card-info-one {
+    position: absolute;
+}
+
+.card-backround .nameCard {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    position: absolute;
+    left: 65px;
+    top: -70px;
+}
+
+.cardTitleAbout {
+    margin-top: 50px;
+    position: relative;
+    background-color: #03224C;
+    text-align: center;
+    color: #FEA347;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cardAboutSectionSecond {
+    padding: 20px;
+}
+
+.infoAbout {
+    margin-top: 40px;
+}
+
+.Razvan, .Marius, .Alex, .Emma {
+    filter: grayscale(100%);
+}
+
+.Razvan:hover, .Marius:hover, .Alex:hover, .Emma:hover {
+    filter: none;
+}
+
+/* Footer Section */
+.footerSection {
+    background-color: #03224C;
+}
+
+.footertext {
+    color: white;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Media Query */
+@media (max-width: 766px) {
+    .cardsDown {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 555px) {
+    .titleHeader {
+        margin-top: -40px;
+    }
+}
+@media (max-width: 352px) {
+    .card-backround .nameCard {
+        margin-left: -55px;
+    }
+}
+@media (max-width: 335px) {
+    .titleHeader {
+        font-size: 45px;
+    }
+}

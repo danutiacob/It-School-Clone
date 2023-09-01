@@ -1,0 +1,326 @@
+/* Header Section */
+.HeaderSection {
+    background-color: #03224C;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.titleHeader {
+    font-size: 4.5rem;
+    padding: 10rem;
+    text-align: center;
+    color: #FFCB60;
+}
+
+/* Program Section */
+.ProgramSection {
+    padding: 25px;
+    background-color: #c7e6ef;
+}
+
+.paragraphS {
+    margin: 30px 50px;
+}
+
+.DetailsButton {
+    background-color: #FFCB60;
+    margin-top: 30px;
+    border-radius: 0 2rem 0 2rem;
+    margin-left: 10px;
+    padding: 20px 80px;
+}
+
+.DetailsButton:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid #FFCB60;
+}
+
+.TitleC {
+    color: #FFCB60;
+    font-size: 30px;
+}
+
+.textTitleCard {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.periodText {
+    margin-top: 15px;
+}
+
+.microsoft {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.Pieces {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.pieces {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.piecesI {
+    font-size: 25px;
+    color: black;
+}
+
+.periodIcons {
+    margin-left: 10px;
+}
+
+
+/* Media Query */
+@media (max-width: 812px) {
+    .titleHeader {
+        margin-top: 20px;
+        font-size: 4.5rem;
+        padding: 8rem;
+        text-align: center;
+        color: #FFCB60;
+    }
+}
+@media (max-width: 763px) {
+    .CardsDown {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 557px) {
+    .titleHeader {
+        font-size: 4.5rem;
+        padding: 3dvh;
+        text-align: center;
+        color: #FFCB60;
+    }
+}
+@media (max-width: 413px) {
+    .titleHeader {
+        font-size: 4.5rem;
+        padding: 3rem;
+        text-align: center;
+        color: #FFCB60;
+    }
+}
+@media (max-width: 365px) {
+    .DetailsButton {
+        margin-left: -10px;
+        }
+}
+@media (max-width: 355px) {
+    .titleHeader {
+        font-size: 2rem;
+        padding: 2rem;
+        text-align: center;
+        color: #FFCB60;
+    }
+}
+@media (max-width: 335px) {
+    .titleHeader {
+        font-size: 2rem;
+        padding: 4rem;
+        text-align: center;
+        color: #FFCB60;
+    }
+}
+@media (max-width: 310px) {
+    .titleHeader {
+        margin-top: 20px;
+        font-size: 3rem;
+        /* padding: 0.7rem; */
+        text-align: center;
+        color: #FFCB60;
+    }
+    .DetailsButton {
+        padding: 20px 60px;
+    }
+
+}
+/* .microsoftColor {
+    width: 90px;
+    margin-left: 20px;
+}
+.titleTraining {
+    text-align: center;
+    margin-top: 30px;
+    color: #4ca66cef;
+}
+.twoParts {
+    display: flex;
+}
+.cardsFirstt {
+    display: flex;
+}
+.cursesCardsFirst {
+    margin-left: 80px;
+}
+.cursesCardsTow {
+    margin-left: 20px;
+}
+.cardsSeconds {
+    display: flex;
+}
+.trainingButton {
+    padding: 10px 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #4ca66cef;
+}
+.trainingButton:hover {
+    background-color: transparent;
+    color: black;
+}
+@media (max-width: 1323px) {
+    .twoParts {
+            display: block;
+    }
+    .cursesCardsSecond {
+        margin-left: 300px;
+    }
+    .cursesCardsFirst {
+        margin-left: 300px;
+    }
+}
+@media (max-width: 1257px) {
+    .cursesCardsSecond {
+        margin-left: 300px;
+    }
+    .cursesCardsFirst {
+        margin-left: 300px;
+    }
+}
+@media (max-width: 972px) {
+    .twoParts {
+        display: block;
+    }
+
+    .cursesCardsSecond {
+        margin-left: 200px;
+    }
+
+    .cursesCardsFirst {
+        margin-left: 200px;
+    }
+}
+.titleHeader {
+    font-size: 4.5rem;
+    padding: 10rem;
+    text-align: center;
+    color: #FFCB60;
+}
+@media (max-width: 812px) {
+    .twoParts {
+        display: block;
+    }
+
+    .cursesCardsSecond {
+        margin-left: 80px;
+    }
+
+    .cursesCardsFirst {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 678px) {
+    .cardsFirstt {
+        display: block;
+    }
+    .cardsSeconds {
+        display: block;
+    }
+        .cursesCardsSecond {
+            margin-left: 200px;
+        }
+        .cursesCardsFirst {
+            margin-left: 200px;
+        }
+    .cursesCardsTow {
+        margin-left: 200px;
+    }
+}
+@media (max-width: 532px) {
+    .cardsFirstt {
+        display: block;
+    }
+
+    .cardsSeconds {
+        display: block;
+    }
+
+    .cursesCardsSecond {
+        margin-left: 100px;
+    }
+
+    .cursesCardsFirst {
+        margin-left: 100px;
+    }
+
+    .cursesCardsTow {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 400px) {
+    .titleHeader {
+            margin-bottom: 40px;
+            font-size: small;
+        }
+}
+@media (max-width: 393px) {
+    .titleHeader {
+        font-size: 10px;
+    }
+    .headerCursesSection {
+        width: 100%;
+        height: 90px;
+    }
+    .cursesCardsFirst {
+        width: 6rem;
+    }
+}
+@media (max-width: 421px) {
+    .cardsFirstt {
+        display: block;
+    }
+
+    .cardsSeconds {
+        display: block;
+    }
+
+    .cursesCardsSecond {
+        margin-left: 50px;
+    }
+
+    .cursesCardsFirst {
+        margin-left: 50px;
+    }
+
+    .cursesCardsTow {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 344px) {
+    .cardsFirstt {
+        display: block;
+    }
+
+    .cardsSeconds {
+        display: block;
+    }
+
+    .cursesCardsSecond {
+        margin-left: 5px;
+    }
+
+    .cursesCardsFirst {
+        margin-left: 5px;
+    }
+
+    .cursesCardsTow {
+        margin-left: 5px;
+    }
+} */
